@@ -8,8 +8,8 @@ export const DEVELOPER_PROFILE = {
     "4 YRS CSR & OPS",
     "REMOTE-READY",
   ],
-  photoUrl: "/profile.JPG", // Place your native graduation photo in /public/grad-photo.jpg
-  name: "Vincent Karl Jofferson D. Bunsay",
+  photoUrl: "/profile.JPG", 
+  name: "VB",
   roleTitleTop: "FULL-STACK DEVELOPER",
   roleTitleBottom: "& OPERATIONS SPECIALIST",
   bio: "IT graduate and full-stack web builder with 4+ years of customer service and remote operations experience. I build clean, reliable web applications with React, Vite, PHP, and MySQL—bringing calm process discipline, sharp documentation, and real-world user empathy to every project.",
@@ -88,8 +88,8 @@ export const WORK_CARDS = [
       "Crisp native portrait presentation with zero 3D blur distortion",
     ],
     tech: ["React", "Vite", "Three.js", "CSS Snap"],
-    liveUrl: "",
-    repoUrl: "https://github.com/your-github-username/portfolio",
+    liveUrl: "https://vincebunsay.vercel.app",
+    repoUrl: "https://github.com/VinceBunsay-dev/VB-Portfolio",
   },
   {
     id: "tmdb-browser",
