@@ -1,0 +1,112 @@
+export const DEVELOPER_PROFILE = {
+  monogram: "VB",
+  firstName: "VINCE",
+  lastName: "BUNSAY",
+  yearTag: "PORTFOLIO",
+  pillars: [
+    "FULL-STACK WEB DEV",
+    "4 YRS CSR & OPS",
+    "REMOTE-READY",
+  ],
+  photoUrl: "/profile.JPG", // Place your native graduation photo in /public/grad-photo.jpg
+  name: "Vincent Karl Jofferson D. Bunsay",
+  roleTitleTop: "FULL-STACK DEVELOPER",
+  roleTitleBottom: "& OPERATIONS SPECIALIST",
+  bio: "IT graduate and full-stack web builder with 4+ years of customer service and remote operations experience. I build clean, reliable web applications with React, Vite, PHP, and MySQL—bringing calm process discipline, sharp documentation, and real-world user empathy to every project.",
+  location: "BASED IN DAVAO CITY, PHILIPPINES",
+  github: "https://github.com/VinceBunsay-dev",
+  email: "bunsaykarlskie@gmail.com",
+  stats: [
+    { target: 4, plus: "+", label: "Years CSR & Remote Ops" },
+    { target: 6, plus: "+", label: "Full-Stack & Web Builds" },
+    { target: 100, plus: "%", label: "Detail & Process Driven" },
+  ],
+  stack: [
+    "React",
+    "Vite",
+    "Three.js",
+    "HTML5 & CSS3",
+    "JavaScript",
+    "PHP",
+    "MySQL",
+    "XAMPP",
+    "Git & GitHub",
+    "Vercel & Render",
+    "InfinityFree",
+  ],
+};
+
+export const WORK_CARDS = [
+  {
+    id: "cic-ims",
+    index: "01",
+    category: "PHP // MYSQL WEB APP",
+    title: "CIC-IMS",
+    roleBadge: "FULL-STACK INVENTORY SYSTEM",
+    accent: "#2dd4bf",
+    description:
+      "Custom inventory management system built to track stock movement, item records, and operational status without spreadsheet clutter.",
+    highlights: [
+      "Structured MySQL schema with CRUD workflows and status tracking",
+      "Built locally on XAMPP and deployed live via InfinityFree",
+      "Focused on fast lookup, clear records, and practical daily use",
+    ],
+    tech: ["PHP", "MySQL", "HTML/CSS", "XAMPP", "InfinityFree"],
+    liveUrl: "https://inventorysystem.kesug.com",
+    repoUrl: "https://github.com/VinceBunsay-dev/Inventory-system",
+  },
+  {
+    id: "private-ledger",
+    index: "02",
+    category: "FULL-STACK LEDGER",
+    title: "PRIVATE LEDGER",
+    roleBadge: "DATABASE & WORKFLOW APP",
+    accent: "#a78bfa",
+    description:
+      "Full-stack personal and operational ledger web application designed around clean audit trails, balances, and structured transaction history.",
+    highlights: [
+      "Relational MySQL tables for users, deposits, withdrawals, payment methods, and ledger history",
+      "Clear separation of account records and historical activity logs",
+      "Architected for modern deployment across Vercel and Render",
+    ],
+    tech: ["React", "MySQL", "REST API", "Vercel", "Render"],
+    liveUrl: "https://private-ledger-app.vercel.app",
+    repoUrl: "https://github.com/VinceBunsay-dev/private-ledger-app",
+  },
+  {
+    id: "kinetic-portfolio",
+    index: "03",
+    category: "INTERACTIVE UI // WEBGL",
+    title: "KINETIC STUDIO",
+    roleBadge: "REACT + THREE.JS PORTFOLIO",
+    accent: "#facc15",
+    description:
+      "Scroll-snapped portfolio combining editorial Y2K typography, a 6-arm iridescent Three.js cross, and an interactive project card deck.",
+    highlights: [
+      "Scroll-driven 3D motion paired with a responsive snap-section layout",
+      "Drag, swipe, and button controls for cycling through project cards",
+      "Crisp native portrait presentation with zero 3D blur distortion",
+    ],
+    tech: ["React", "Vite", "Three.js", "CSS Snap"],
+    liveUrl: "",
+    repoUrl: "https://github.com/your-github-username/portfolio",
+  },
+  {
+    id: "tmdb-browser",
+    index: "04",
+    category: "FRONTEND // API APP",
+    title: "CINEMA DISCOVERY",
+    roleBadge: "REACT & VITE BROWSER",
+    accent: "#38bdf8",
+    description:
+      "Fast movie browsing interface powered by the TMDB API for exploring titles, search results, and clean visual cards.",
+    highlights: [
+      "Built with React and Vite for snappy client-side rendering",
+      "Dynamic search and catalog views backed by external API data",
+      "Clean card layout designed for quick browsing across screen sizes",
+    ],
+    tech: ["React", "Vite", "TMDB API", "JavaScript"],
+    liveUrl: "https://spark-movies-ten.vercel.app",
+    repoUrl: "https://github.com/VinceBunsay-dev/Spark-Movies",
+  },
+];
