@@ -95,7 +95,7 @@ export const WORK_CARDS = [
     id: "tmdb-browser",
     index: "04",
     category: "FRONTEND // API APP",
-    title: "CINEMA DISCOVERY",
+    title: "CINEMA",
     roleBadge: "REACT & VITE BROWSER",
     accent: "#38bdf8",
     description:
