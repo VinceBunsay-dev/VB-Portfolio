@@ -9,7 +9,7 @@ export const DEVELOPER_PROFILE = {
     "REMOTE-READY",
   ],
   photoUrl: "/profile.JPG", // Place your native graduation photo in /public/grad-photo.jpg
-  name: "Vincent Karl Jofferson D. Bunsay",
+  name: "VB",
   roleTitleTop: "FULL-STACK DEVELOPER",
   roleTitleBottom: "& OPERATIONS SPECIALIST",
   bio: "IT graduate and full-stack web builder with 4+ years of customer service and remote operations experience. I build clean, reliable web applications with React, Vite, PHP, and MySQL—bringing calm process discipline, sharp documentation, and real-world user empathy to every project.",
